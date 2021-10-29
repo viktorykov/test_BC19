@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Microsoft cloud sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox19",
+            //"tenant": "cb1be92e-164d-46db-8bca-22705e4e096d",
+            "tenant": "a248fcb1-6854-4a51-96e3-e8167b2ebb8e",           
+            //"startupObjectId": 50144,  Request Page for API          
+            "startupObjectId": 50040,            
+            //"schemaUpdateMode": "Recreate",
+            //"schemaUpdateMode": "Synchronize",
+            "schemaUpdateMode": "ForceSync",
+            "startupObjectType": "Page",
+            //"startupObjectType": "Report",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}
